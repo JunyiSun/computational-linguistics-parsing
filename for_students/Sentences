@@ -1,0 +1,139 @@
+% Junyi Sun, sunjunyi, 1001350183 
+
+%3.1 simple sentences: parses
+Nadia left immediately
+the cat with the long soft fur slowly ate
+the cat with the long yellow soft fur slowly ate
+she arrived
+they always helped me nicely immediately
+
+%3.1 simple sentences: no parses
+Nadia with the long soft fur slowly ate
+the cat with the tall her arrived
+
+%3.2 auxiliary: parses
+   % 12 tenses
+I leave
+Nadia leaves
+Nadia left
+Nadia will leave
+Nadia had left
+Nadia has left
+Nadia will have left
+Nadia was leaving
+Nadia is leaving
+Nadia will be leaving
+Nadia had been leaving
+Nadia have been leaving
+Nadia will have been leaving
+Nadia may have been leaving
+   % modal + tenses
+I could have demanded
+I would want to fly with Nadia
+I might have demanded a flight to London
+   % passive voice
+Nadia has been demanded to fly to Google
+Nadia was shot by the man
+
+
+%3.2 auxiliary: no parses
+Nadia will left
+I should told her
+Nadia has could leave
+Nadia has had left
+I were told you
+I is have ate
+Nadia has being helped
+Nadia have fly her flight
+
+%3.3 subcategorization : parses
+  % NP + V 
+i ate
+she arrived
+  
+  % NP + V NP
+I helped her
+Nadia fondled the eggplant
+she really wanted help
+Nadia won an elephant
+I ate an eggplant with Nadia
+I saw Nadia on a boat with my elephant
+I found the flight from Marseilles to London
+the man shot Nadia
+
+  % NP + V NP VP
+I helped her do homework
+he helped her jump
+
+
+  % NP + V NP NP
+I gave her my help
+Nadia showed me the airline with a flight from Marseilles
+Nadia gave me an long eggplant
+  
+  % NP + V NP PP (PP -> P NP)
+Nadia helped me with a flight
+the handsome poodle brought Ross to the autoclave
+Nadia brought a package for the cheese
+the eggplant reminded Nadia of Ross
+Nadia rewarded the man with the eggplant
+autopoiesis always reminded her of Marseilles
+Nadia slowly gave the eggplant to me
+Nadia brought me to London immediately
+Nadia saw me with her cat
+
+  % NP + V NP PP (PP -> P VP)
+they told her to jump onto the elephant
+
+  % NP + V PTO
+I really wanted to eat
+I wanted to help her
+  
+  % NP + V NP PP PP
+I always flew from London to Marseilles
+   
+  % NP + V PP
+I left for London
+I arrived on the boat
+   
+  % NP + V ADVP
+cheese was always on the menu
+
+  % NP + V + (CON) + S
+she believed that Ross was already on the hovercraft
+  
+  % NP + V NP + (CON) + S
+I told Nadia that she won already  
+  
+
+
+%3.3 subcategorization : no parses
+Nadia found
+they saw from Google to London
+Ross showed of the cat
+Ross brought to him
+they told to jump onto the elephant
+I wanted eat
+I wanted to helped my menu
+Nadia told him leaving
+he helped the fur the fur the fur
+Nadia helped me her flight
+I gave her him an eggplant
+
+% under-generation: should parse but doesn't
+I wanted to help her do homework
+it was me who told her
+there was an menu on the boat
+I did not help her
+Nadia helped me and Ross
+
+
+% over-generation: should not accept but does
+
+Nadia won boat
+the menu were on the boat
+a fur was on the cat
+the cat has been leaving
+I brought help the fur
+the man left for help her
+you saw me to help her

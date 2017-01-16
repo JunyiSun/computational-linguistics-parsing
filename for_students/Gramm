@@ -1,0 +1,19 @@
+% Junyi Sun, sunjunyi, 1001350183 
+
+S -> NP VP
+NP -> N
+NP -> PN
+NP -> Det N
+NP -> Det Adj N
+NP -> NP PP
+PP -> P NP
+VP -> V
+VP -> V NP
+S -> VP 
+S -> WHO VP
+S -> WHAT AUXDO NP V PP
+S -> WHERE AUXDO NP VP
+S -> WHEN AUXDO NP VP
+S -> WHY AUXDO S
+S -> AUXBE NP NP
+S -> AUXDO S

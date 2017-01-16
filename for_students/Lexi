@@ -1,0 +1,21 @@
+% Junyi Sun, sunjunyi, 1001350183 
+
+Det -> 'the'|'a'|'an'|'her'|'his' | 'your'
+Adj -> 'old'|'red'|'happy'
+
+N -> 'dog'|'old'|'park'|'statue'|'run' | 'it'
+V -> 'saw'|'Walks'|'ate'|'disdained' | 'Walk' | 'walks' | 'walk'
+
+P -> 'in'|'to'|'on'|'under'|'with'
+
+PN -> 'Nadia'|'Ross'
+
+AUXBE -> 'is' | 'are'
+AUXDO -> 'does' | 'do' | 'Does'
+WHAT -> 'What'
+WHERE -> 'Where'
+WHO -> 'Who'
+WHEN -> 'When'
+WHY -> 'Why'
+
+

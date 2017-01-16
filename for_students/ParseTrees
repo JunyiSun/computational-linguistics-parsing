@@ -1,0 +1,902 @@
+% Junyi Sun, sunjunyi, 1001350183
+
+Nadia left immediately
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (VP (VPSIMP (VPAST (VPAST_NO left))))
+          (ADV immediately))))))
+
+the cat with the long soft fur slowly ate
+(S
+  (NP
+    (DET the)
+    (N cat)
+    (PP
+      (P with)
+      (NP (DET the) (ADJP (ADJ long) (ADJP (ADJ soft))) (N fur))))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP (ADV slowly) (VP (VPSIMP (VPAST (VPAST_NO ate)))))))))
+
+the cat with the long yellow soft fur slowly ate
+(S
+  (NP
+    (DET the)
+    (N cat)
+    (PP
+      (P with)
+      (NP
+        (DET the)
+        (ADJP (ADJ long) (ADJP (ADJ yellow) (ADJP (ADJ soft))))
+        (N fur))))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP (ADV slowly) (VP (VPSIMP (VPAST (VPAST_NO ate)))))))))
+
+she arrived
+(S (NP (NPROSUB she)) (VP (VPSIMP (VPAST (VPAST_NO arrived)))))
+
+they always helped me nicely immediately
+(S
+  (NP (NPROSUB they))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_PP )
+                (ADVP
+                  (VP
+                    (VPSIMP
+                      (VPAST
+                        (VPAST_PP )
+                        (ADVP
+                          (ADV always)
+                          (VP
+                            (VPSIMP
+                              (VPAST
+                                (VPAST_NP helped)
+                                (NP (NPROOBJ me)))))))))
+                  (ADV nicely)))))
+          (ADV immediately))))))
+(S
+  (NP (NPROSUB they))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_PP )
+                (ADVP
+                  (ADV always)
+                  (VP
+                    (VPSIMP
+                      (VPAST
+                        (VPAST_PP )
+                        (ADVP
+                          (VP
+                            (VPSIMP
+                              (VPAST
+                                (VPAST_NP helped)
+                                (NP (NPROOBJ me)))))
+                          (ADV nicely)))))))))
+          (ADV immediately))))))
+(S
+  (NP (NPROSUB they))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (ADV always)
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_PP )
+                (ADVP
+                  (VP
+                    (VPSIMP
+                      (VPAST
+                        (VPAST_PP )
+                        (ADVP
+                          (VP
+                            (VPSIMP
+                              (VPAST
+                                (VPAST_NP helped)
+                                (NP (NPROOBJ me)))))
+                          (ADV nicely)))))
+                  (ADV immediately))))))))))
+
+Nadia with the long soft fur slowly ate
+No parses
+
+the cat with the tall her arrived
+No parses
+
+I leave
+(S (NP (NPROSUB I)) (VP (VPSIMP (V leave))))
+
+Nadia leaves
+(S (NP (NPROPER Nadia)) (VP (VPSIMP (V3S leaves))))
+
+Nadia left
+(S (NP (NPROPER Nadia)) (VP (VPSIMP (VPAST (VPAST_NO left)))))
+
+Nadia will leave
+(S (NP (NPROPER Nadia)) (VP (VPSIMP (MODAL will) (V leave))))
+
+Nadia had left
+(S (NP (NPROPER Nadia)) (VP (VPPERF (AUXHAVE had) (VPASTPA left))))
+
+Nadia has left
+(S (NP (NPROPER Nadia)) (VP (VPPERF (AUXHAVE has) (VPASTPA left))))
+
+Nadia will have left
+(S
+  (NP (NPROPER Nadia))
+  (VP (VPPERF (MODAL will) (AUXHAVE have) (VPASTPA left))))
+
+Nadia was leaving
+(S (NP (NPROPER Nadia)) (VP (VPPROGRS (AUXBE was) (VING leaving))))
+
+Nadia is leaving
+(S (NP (NPROPER Nadia)) (VP (VPPROGRS (AUXBE is) (VING leaving))))
+
+Nadia will be leaving
+(S
+  (NP (NPROPER Nadia))
+  (VP (VPPROGRS (MODAL will) (AUXBE be) (VING leaving))))
+
+Nadia had been leaving
+(S
+  (NP (NPROPER Nadia))
+  (VP (VPPROGPERF (AUXHAVE had) (AUXBE been) (VING leaving))))
+
+Nadia have been leaving
+(S
+  (NP (NPROPER Nadia))
+  (VP (VPPROGPERF (AUXHAVE have) (AUXBE been) (VING leaving))))
+
+Nadia will have been leaving
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPPROGPERF
+      (MODAL will)
+      (AUXHAVE have)
+      (AUXBE been)
+      (VING leaving))))
+
+Nadia may have been leaving
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPPROGPERF
+      (MODAL may)
+      (AUXHAVE have)
+      (AUXBE been)
+      (VING leaving))))
+
+I could have demanded
+(S
+  (NP (NPROSUB I))
+  (VP (VPPERF (MODAL could) (AUXHAVE have) (VPASTPA demanded))))
+
+I would want to fly with Nadia
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP
+      (VP (VPSIMP (MODAL would) (V want)))
+      (PP (P to) (VP (VPSIMP (V fly)))))
+    (PP (P with) (NP (NPROPER Nadia)))))
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP (VPSIMP (MODAL would) (V want)))
+    (PP
+      (P to)
+      (VP (VP (VPSIMP (V fly))) (PP (P with) (NP (NPROPER Nadia)))))))
+
+I might have demanded a flight to London
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP (VPPERF (MODAL might) (AUXHAVE have) (VPASTPA demanded)))
+    (NP (DET a) (N flight))
+    (PP (P to) (NP (NPROPER London)))))
+
+Nadia has been demanded to fly to Google
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP
+      (VP (VPPASSIVE (AUXHAVE has) (AUXBE been) (VPASTPA demanded)))
+      (PP (P to) (VP (VPSIMP (V fly)))))
+    (PP (P to) (NP (NPROPER Google)))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP (VPPASSIVE (AUXHAVE has) (AUXBE been) (VPASTPA demanded)))
+    (PP
+      (P to)
+      (VP (VP (VPSIMP (V fly))) (PP (P to) (NP (NPROPER Google)))))))
+
+Nadia was shot by the man
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP (VPPASSIVE (AUXBE was) (VPASTPA shot)))
+    (PP (P by) (NP (DET the) (N man)))))
+
+Nadia will left
+No parses
+
+I should told her
+No parses
+
+Nadia has could leave
+No parses
+
+Nadia has had left
+No parses
+
+I were told you
+No parses
+
+I is have ate
+No parses
+
+Nadia has being helped
+No parses
+
+Nadia have fly her flight
+No parses
+
+i ate
+(S (NP (NPROSUB i)) (VP (VPSIMP (VPAST (VPAST_NO ate)))))
+
+she arrived
+(S (NP (NPROSUB she)) (VP (VPSIMP (VPAST (VPAST_NO arrived)))))
+
+I helped her
+(S
+  (NP (NPROSUB I))
+  (VP (VPSIMP (VPAST (VPAST_NP helped) (NP (NPROOBJ her))))))
+
+Nadia fondled the eggplant
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP (VPAST (VPAST_NP fondled) (NP (DET the) (N eggplant))))))
+
+she really wanted help
+(S
+  (NP (NPROSUB she))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (ADV really)
+          (VP (VPSIMP (VPAST (VPAST_NP wanted) (NP (N help))))))))))
+
+Nadia won an elephant
+(S
+  (NP (NPROPER Nadia))
+  (VP (VPSIMP (VPAST (VPAST_NP won) (NP (DET an) (N elephant))))))
+
+I ate an eggplant with Nadia
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP ate) (NP (DET an) (N eggplant)))))
+    (PP (P with) (NP (NPROPER Nadia)))))
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NO ate))))
+    (NP (DET an) (N eggplant))
+    (PP (P with) (NP (NPROPER Nadia)))))
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NP ate)
+        (NP (DET an) (N eggplant) (PP (P with) (NP (NPROPER Nadia))))))))
+
+I saw Nadia on a boat with my elephant
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP
+      (VP (VPSIMP (VPAST (VPAST_NP saw) (NP (NPROPER Nadia)))))
+      (PP (P on) (NP (DET a) (N boat))))
+    (PP (P with) (NP (ADJPOSSESS my) (N elephant)))))
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP saw) (NP (NPROPER Nadia)))))
+    (PP
+      (P on)
+      (NP
+        (DET a)
+        (N boat)
+        (PP (P with) (NP (ADJPOSSESS my) (N elephant)))))))
+
+I found the flight from Marseilles to London
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP
+      (VP
+        (VPSIMP (VPAST (VPAST_NP found) (NP (DET the) (N flight)))))
+      (PP (P from) (NP (NPROPER Marseilles))))
+    (PP (P to) (NP (NPROPER London)))))
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP
+      (VPSIMP
+        (VPAST
+          (VPAST_NP found)
+          (NP
+            (DET the)
+            (N flight)
+            (PP (P from) (NP (NPROPER Marseilles)))))))
+    (PP (P to) (NP (NPROPER London)))))
+
+the man shot Nadia
+(S
+  (NP (DET the) (N man))
+  (VP (VPSIMP (VPAST (VPAST_NP shot) (NP (NPROPER Nadia))))))
+
+I helped her do homework
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPVP helped)
+        (NP (NPROOBJ her))
+        (VP (V do) (NP (N homework)))))))
+
+he helped her jump
+(S
+  (NP (NPROSUB he))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPVP helped)
+        (NP (NPROOBJ her))
+        (VP (VPSIMP (V jump)))))))
+
+I gave her my help
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPNP gave)
+        (NP (NPROOBJ her))
+        (NP (ADJPOSSESS my) (N help))))))
+
+Nadia showed me the airline with a flight from Marseilles
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP
+      (VP
+        (VPSIMP
+          (VPAST
+            (VPAST_NPNP showed)
+            (NP (NPROOBJ me))
+            (NP (DET the) (N airline)))))
+      (PP (P with) (NP (DET a) (N flight))))
+    (PP (P from) (NP (NPROPER Marseilles)))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP
+      (VPSIMP
+        (VPAST
+          (VPAST_NPNP showed)
+          (NP (NPROOBJ me))
+          (NP
+            (DET the)
+            (N airline)
+            (PP (P with) (NP (DET a) (N flight)))))))
+    (PP (P from) (NP (NPROPER Marseilles)))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP
+      (VPSIMP
+        (VPAST
+          (VPAST_NPNP showed)
+          (NP (NPROOBJ me))
+          (NP (DET the) (N airline)))))
+    (PP
+      (P with)
+      (NP (DET a) (N flight) (PP (P from) (NP (NPROPER Marseilles)))))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPNP showed)
+        (NP (NPROOBJ me))
+        (NP
+          (DET the)
+          (N airline)
+          (PP
+            (P with)
+            (NP
+              (DET a)
+              (N flight)
+              (PP (P from) (NP (NPROPER Marseilles))))))))))
+
+Nadia gave me an long eggplant
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPNP gave)
+        (NP (NPROOBJ me))
+        (NP (DET an) (ADJP (ADJ long)) (N eggplant))))))
+
+Nadia helped me with a flight
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP helped) (NP (NPROOBJ me)))))
+    (PP (P with) (NP (DET a) (N flight)))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPPP helped)
+        (NP (NPROOBJ me))
+        (PP (P with) (NP (DET a) (N flight)))))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPVP helped)
+        (NP (NPROOBJ me))
+        (VP
+          (VPSIMP
+            (VPAST (VPAST_PP ) (PP (P with) (NP (DET a) (N flight))))))))))
+
+the handsome poodle brought Ross to the autoclave
+(S
+  (NP (DET the) (ADJP (ADJ handsome)) (N poodle))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP brought) (NP (NPROPER Ross)))))
+    (PP (P to) (NP (DET the) (N autoclave)))))
+(S
+  (NP (DET the) (ADJP (ADJ handsome)) (N poodle))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPPP brought)
+        (NP (NPROPER Ross))
+        (PP (P to) (NP (DET the) (N autoclave)))))))
+
+Nadia brought a package for the cheese
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP brought) (NP (DET a) (N package)))))
+    (PP (P for) (NP (DET the) (N cheese)))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPPP brought)
+        (NP (DET a) (N package))
+        (PP (P for) (NP (DET the) (N cheese)))))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NP brought)
+        (NP
+          (DET a)
+          (N package)
+          (PP (P for) (NP (DET the) (N cheese))))))))
+
+the eggplant reminded Nadia of Ross
+(S
+  (NP (DET the) (N eggplant))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPPP reminded)
+        (NP (NPROPER Nadia))
+        (PP (P of) (NP (NPROPER Ross)))))))
+
+Nadia rewarded the man with the eggplant
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPPP rewarded)
+        (NP (DET the) (N man))
+        (PP (P with) (NP (DET the) (N eggplant)))))))
+
+autopoiesis always reminded her of Marseilles
+(S
+  (NP (N autopoiesis))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (ADV always)
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_NPPP reminded)
+                (NP (NPROOBJ her))
+                (PP (P of) (NP (NPROPER Marseilles)))))))))))
+
+Nadia slowly gave the eggplant to me
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (ADV slowly)
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_NPPP gave)
+                (NP (DET the) (N eggplant))
+                (PP (P to) (NP (NPROOBJ me)))))))))))
+
+Nadia brought me to London immediately
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (VP
+            (VP
+              (VPSIMP (VPAST (VPAST_NP brought) (NP (NPROOBJ me)))))
+            (PP (P to) (NP (NPROPER London))))
+          (ADV immediately))))))
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_NPPP brought)
+                (NP (NPROOBJ me))
+                (PP (P to) (NP (NPROPER London))))))
+          (ADV immediately))))))
+
+Nadia saw me with her cat
+(S
+  (NP (NPROPER Nadia))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP saw) (NP (NPROOBJ me)))))
+    (PP (P with) (NP (ADJPOSSESS her) (N cat)))))
+
+they told her to jump onto the elephant
+(S
+  (NP (NPROSUB they))
+  (VP
+    (VP
+      (VP (VPSIMP (VPAST (VPAST_NP told) (NP (NPROOBJ her)))))
+      (PP (P to) (VP (VPSIMP (V jump)))))
+    (PP (P onto) (NP (DET the) (N elephant)))))
+(S
+  (NP (NPROSUB they))
+  (VP
+    (VP
+      (VPSIMP
+        (VPAST
+          (VPAST_NPPP told)
+          (NP (NPROOBJ her))
+          (PP (P to) (VP (VPSIMP (V jump)))))))
+    (PP (P onto) (NP (DET the) (N elephant)))))
+(S
+  (NP (NPROSUB they))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP told) (NP (NPROOBJ her)))))
+    (PP
+      (P to)
+      (VP
+        (VP (VPSIMP (V jump)))
+        (PP (P onto) (NP (DET the) (N elephant)))))))
+(S
+  (NP (NPROSUB they))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPPP told)
+        (NP (NPROOBJ her))
+        (PP
+          (P to)
+          (VP
+            (VP (VPSIMP (V jump)))
+            (PP (P onto) (NP (DET the) (N elephant)))))))))
+
+I really wanted to eat
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (ADV really)
+          (VP
+            (VPSIMP (VPAST (VPAST_TOV wanted) (PTO (P to) (V eat))))))))))
+
+I wanted to help her
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_TOV wanted)
+        (PTO (P to) (V help) (NP (NPROOBJ her)))))))
+
+I always flew from London to Marseilles
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (ADV always)
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_PPPP flew)
+                (PP (P from) (NP (NPROPER London)))
+                (PP (P to) (NP (NPROPER Marseilles)))))))))))
+
+I left for London
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NO left))))
+    (PP (P for) (NP (NPROPER London)))))
+
+I arrived on the boat
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NO arrived))))
+    (PP (P on) (NP (DET the) (N boat)))))
+
+cheese was always on the menu
+(S
+  (NP (N cheese))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP was)
+        (ADVP (ADV always) (PP (P on) (NP (DET the) (N menu))))))))
+(S
+  (NP (N cheese))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP was)
+        (ADVP
+          (ADV always)
+          (VP
+            (VPSIMP
+              (VPAST (VPAST_PP ) (PP (P on) (NP (DET the) (N menu)))))))))))
+
+she believed that Ross was already on the hovercraft
+(S
+  (NP (NPROSUB she))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_S believed)
+        (CON that)
+        (S
+          (NP (NPROPER Ross))
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_PP was)
+                (ADVP
+                  (ADV already)
+                  (PP (P on) (NP (DET the) (N hovercraft))))))))))))
+(S
+  (NP (NPROSUB she))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_S believed)
+        (CON that)
+        (S
+          (NP (NPROPER Ross))
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_PP was)
+                (ADVP
+                  (ADV already)
+                  (VP
+                    (VPSIMP
+                      (VPAST
+                        (VPAST_PP )
+                        (PP (P on) (NP (DET the) (N hovercraft)))))))))))))))
+
+I told Nadia that she won already
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_PP )
+        (ADVP
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_NPS told)
+                (NP (NPROPER Nadia))
+                (CON that)
+                (S
+                  (NP (NPROSUB she))
+                  (VP (VPSIMP (VPAST (VPAST_NO won))))))))
+          (ADV already))))))
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPS told)
+        (NP (NPROPER Nadia))
+        (CON that)
+        (S
+          (NP (NPROSUB she))
+          (VP
+            (VPSIMP
+              (VPAST
+                (VPAST_PP )
+                (ADVP
+                  (VP (VPSIMP (VPAST (VPAST_NO won))))
+                  (ADV already))))))))))
+
+Nadia found
+No parses
+
+they saw from Google to London
+No parses
+
+Ross showed of the cat
+No parses
+
+Ross brought to him
+No parses
+
+they told to jump onto the elephant
+No parses
+
+I wanted eat
+No parses
+
+I wanted to helped my menu
+No parses
+
+Nadia told him leaving
+No parses
+
+he helped the fur the fur the fur
+No parses
+
+Nadia helped me her flight
+No parses
+
+I gave her him an eggplant
+No parses
+
+I wanted to help her do homework
+No parses
+
+it was me who told her
+No parses
+
+there was an menu on the boat
+No parses
+
+I did not help her
+No parses
+
+Nadia helped me and Ross
+No parses
+
+Nadia won boat
+(S
+  (NP (NPROPER Nadia))
+  (VP (VPSIMP (VPAST (VPAST_NP won) (NP (N boat))))))
+
+the menu were on the boat
+(S
+  (NP (DET the) (N menu))
+  (VP
+    (VPSIMP
+      (VPAST (VPAST_PP were) (PP (P on) (NP (DET the) (N boat)))))))
+
+a fur was on the cat
+(S
+  (NP (DET a) (N fur))
+  (VP
+    (VPSIMP
+      (VPAST (VPAST_PP was) (PP (P on) (NP (DET the) (N cat)))))))
+
+the cat has been leaving
+(S
+  (NP (DET the) (N cat))
+  (VP (VPPROGPERF (AUXHAVE has) (AUXBE been) (VING leaving))))
+
+I brought help the fur
+(S
+  (NP (NPROSUB I))
+  (VP
+    (VPSIMP
+      (VPAST
+        (VPAST_NPNP brought)
+        (NP (N help))
+        (NP (DET the) (N fur))))))
+
+the man left for help her
+(S
+  (NP (DET the) (N man))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NO left))))
+    (PP (P for) (VP (V help) (NP (NPROOBJ her))))))
+
+you saw me to help her
+(S
+  (NP (NPROOBJ you))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP saw) (NP (NPROOBJ me)))))
+    (PP (P to) (VP (V help) (NP (NPROOBJ her))))))
+(S
+  (NP (NPROSUB you))
+  (VP
+    (VP (VPSIMP (VPAST (VPAST_NP saw) (NP (NPROOBJ me)))))
+    (PP (P to) (VP (V help) (NP (NPROOBJ her))))))
+

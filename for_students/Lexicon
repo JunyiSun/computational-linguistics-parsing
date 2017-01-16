@@ -1,0 +1,37 @@
+% Junyi Sun, sunjunyi, 1001350183
+ 
+DET -> 'a' | 'an' | 'the'
+N -> 'cat' | 'fur' | 'eggplant' | 'autoclave' | 'package' | 'cheese' | 'elephant' | 'menu' | 'poodle' | 'hovercraft' | 'help' | 'man' | 'autopoiesis' | 'boat' | 'rutabaga' | 'shot' | 'flight' | 'airline' | 'homework'
+NPROSUB -> 'I' | 'i' | 'she' |'he' | 'they' | 'it' | 'we' | 'you' 
+NPROOBJ -> 'him' | 'her' | 'them' | 'us' | 'you' | 'me'
+NPROPER -> 'Nadia' | 'Ross' | 'Marseilles' | 'Google' | 'London'
+ADJPOSSESS -> 'my' | 'your' | 'his' | 'her' | 'their'
+NPOSSESS -> 'mine' | 'yours' | 'his' | 'hers' | 'theirs'
+
+V -> 'do' | 'leave' | 'jump' | 'help' | 'have' | 'arrive' | 'shoot' | 'eat' | 'fondle' | 'bring' | 'tell' | 'believe' | 'win' | 'see' | 'want' | 'remind' | 'reward' | 'demand' | 'find' | 'give' | 'fly' | 'like' 
+V3S -> 'does' | 'has' | 'leaves'
+
+
+VPAST_NO -> 'ate' | 'left' | 'arrived' | 'won'
+VPAST_NP -> 'did' | 'ate' | 'left' | 'arrived' | 'fondled' | 'brought' | 'found' | 'wanted' | 'told' | 'won' | 'saw' | 'helped' | 'had' | 'shot' 
+VPAST_NPVP -> 'helped' 
+VPAST_NPNP -> 'brought' | 'gave' | 'showed'
+VPAST_NPPP ->  'brought'  | 'gave' | 'reminded' | 'told' | 'rewarded' | 'helped'
+VPAST_PPPP -> 'flew'
+VPAST_TOV -> 'wanted'
+VPAST_PP -> 'was' | 'were' | 
+VPAST_S ->  'believed' | 'found'
+VPAST_NPS -> 'told' 
+
+
+VING -> 'doing'| 'leaving'
+VPASTPA -> 'done' | 'left' | 'demanded' | 'shot'
+
+MODAL -> 'can' | 'could' | 'shall' | 'should' | 'must' | 'would' | 'may' | 'might' | 'will'
+AUXHAVE -> 'have' | 'has' | 'had'
+AUXBE -> 'be' | 'am' | 'is' | 'are' | 'being' | 'been' | 'was' | 'were'
+
+P -> 'with' | 'to' | 'for' | 'onto' | 'on' | 'of' | 'from' | 'before' | 'after' | 'by'
+ADJ -> 'long' | 'soft' | 'tall' | 'yellow' | 'handsome'
+ADV -> 'slowly' | 'immediately' | 'already' | 'nicely' | 'really' | 'always' | 'there' | 'not'
+CON -> 'that' | 'who' | 'and'

@@ -1,0 +1,9 @@
+% Jane Doe, herlogin, 111111111 
+
+% from the asst
+S -> NP VP
+NP -> NPrp
+NP -> Det N
+VP -> V | V NP
+VP -> V NP PP
+PP -> P NP

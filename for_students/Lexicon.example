@@ -1,0 +1,8 @@
+% Jane Doe, herlogin, 111111111
+
+% a few Lexicon entries from the assignment
+Det -> 'a' | 'an'
+N -> 'elephant' | 'rutabaga' | 'autopoiesis' | 'shot'
+NPro -> 'i'
+NPrp -> 'Nadia' | 'Marseilles' | 'Google'
+V -> 'won' | 'smiled' | 'demanded' | 'shot'
